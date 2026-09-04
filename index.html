@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lunahan — bilingual AI assistant for email and daily work." />
+  <title>Lunahan — AI Assistant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#">Lunahan</a>
+    <button id="language" class="language" aria-label="Change language">EN</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow" data-tr="İki dilde çalışan kişisel yapay zekâ" data-en="Your bilingual personal AI">İki dilde çalışan kişisel yapay zekâ</div>
+      <h1 data-tr="Gelen kutunu sakinleştir. Gününü hızlandır." data-en="Calm your inbox. Move your day forward.">Gelen kutunu sakinleştir. Gününü hızlandır.</h1>
+      <p data-tr="Lunahan e-postalarını özetler, yanıt taslakları hazırlar ve hiçbir şeyi sen onaylamadan göndermez." data-en="Lunahan summarizes email, drafts replies, and never sends anything without your approval.">Lunahan e-postalarını özetler, yanıt taslakları hazırlar ve hiçbir şeyi sen onaylamadan göndermez.</p>
+      <button id="start" class="primary" data-tr="Erken erişime katıl" data-en="Join early access">Erken erişime katıl</button>
+    </section>
+
+    <section class="demo" aria-label="Product preview">
+      <aside>
+        <div class="orb">L</div>
+        <span data-tr="Bugün" data-en="Today">Bugün</span>
+        <span data-tr="Gelen kutusu" data-en="Inbox">Gelen kutusu</span>
+        <span data-tr="Taslaklar" data-en="Drafts">Taslaklar</span>
+      </aside>
+      <article>
+        <div class="status"><span></span><b data-tr="Günaydın" data-en="Good morning">Günaydın</b></div>
+        <h2 data-tr="Bugün ilgilenmen gereken 3 konu var." data-en="You have 3 things that need attention today.">Bugün ilgilenmen gereken 3 konu var.</h2>
+        <div class="card"><b data-tr="Öncelikli e-posta" data-en="Priority email">Öncelikli e-posta</b><p data-tr="Teklif onayı bekleniyor. Senin tonunda bir yanıt taslağı hazırlandı." data-en="A proposal is waiting for approval. A reply has been drafted in your tone.">Teklif onayı bekleniyor. Senin tonunda bir yanıt taslağı hazırlandı.</p><button data-tr="Taslağı incele" data-en="Review draft">Taslağı incele</button></div>
+        <div class="card muted"><b data-tr="Toplantı özeti" data-en="Meeting recap">Toplantı özeti</b><p data-tr="Dünkü görüşmeden 4 görev çıkarıldı." data-en="4 action items were captured from yesterday’s call.">Dünkü görüşmeden 4 görev çıkarıldı.</p></div>
+      </article>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Lunahan</span><span data-tr="Gizlilik odaklı · Onaysız işlem yok" data-en="Privacy-first · No action without approval">Gizlilik odaklı · Onaysız işlem yok</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
