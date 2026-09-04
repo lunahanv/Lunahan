@@ -1,43 +1,12 @@
-<!doctype html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lunahan — bilingual AI assistant for email and daily work." />
-  <title>Lunahan — AI Assistant</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="nav">
-    <a class="brand" href="#">Lunahan</a>
-    <button id="language" class="language" aria-label="Change language">EN</button>
-  </header>
+<!doctype html><html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Lunahan</title><link rel="stylesheet" href="styles.css"></head><body>
+<header><a class="brand" href="#home">Lunahan</a><nav><button data-view="home" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</button><button data-view="inbox" data-tr="Gelen Kutusu" data-en="Inbox">Gelen Kutusu</button><button data-view="drafts" data-tr="Taslaklar" data-en="Drafts">Taslaklar</button><button data-view="settings" data-tr="Ayarlar" data-en="Settings">Ayarlar</button></nav><button id="language" class="pill">EN</button></header>
+<main>
+<section id="home" class="view active hero"><div class="badge" data-tr="Türkçe ve İngilizce yapay zekâ asistanı" data-en="Turkish and English AI assistant">Türkçe ve İngilizce yapay zekâ asistanı</div><h1 data-tr="E-postalarını Luna yönetsin, kontrol sende kalsın." data-en="Let Luna manage your email while you stay in control.">E-postalarını Luna yönetsin, kontrol sende kalsın.</h1><p data-tr="Gelen kutunu özetle, öncelikleri gör ve kendi tonunda yanıt taslakları hazırla. Onayın olmadan hiçbir şey gönderilmez." data-en="Summarize your inbox, see priorities, and draft replies in your voice. Nothing is sent without your approval.">Gelen kutunu özetle, öncelikleri gör ve kendi tonunda yanıt taslakları hazırla. Onayın olmadan hiçbir şey gönderilmez.</p><button class="primary" data-view="inbox" data-tr="Demoyu aç" data-en="Open demo">Demoyu aç</button><div class="features"><article><b data-tr="Akıllı özet" data-en="Smart summary">Akıllı özet</b><span data-tr="Uzun konuşmaları saniyeler içinde anla." data-en="Understand long threads in seconds.">Uzun konuşmaları saniyeler içinde anla.</span></article><article><b data-tr="Senin tonun" data-en="Your voice">Senin tonun</b><span data-tr="Doğal ve kişisel yanıt taslakları." data-en="Natural, personal reply drafts.">Doğal ve kişisel yanıt taslakları.</span></article><article><b data-tr="Onay sende" data-en="You approve">Onay sende</b><span data-tr="İznin olmadan mesaj gönderilmez." data-en="Nothing is sent without permission.">İznin olmadan mesaj gönderilmez.</span></article></div></section>
+<section id="inbox" class="view app"><div class="side"><b data-tr="Çalışma Alanı" data-en="Workspace">Çalışma Alanı</b><button class="selected">📥 <span data-tr="Gelen Kutusu" data-en="Inbox">Gelen Kutusu</span><em>3</em></button><button>⭐ <span data-tr="Öncelikli" data-en="Priority">Öncelikli</span></button><button data-view="drafts">✍️ <span data-tr="Taslaklar" data-en="Drafts">Taslaklar</span></button></div><div class="content"><div class="topline"><div><small data-tr="BUGÜN" data-en="TODAY">BUGÜN</small><h2 data-tr="Gelen Kutusu" data-en="Inbox">Gelen Kutusu</h2></div><button class="secondary" data-tr="Yenile" data-en="Refresh">Yenile</button></div><div class="summary"><b data-tr="Luna özeti" data-en="Luna summary">Luna özeti</b><p data-tr="3 e-posta ilgini bekliyor. Teklif onayı en yüksek önceliğe sahip." data-en="3 emails need your attention. The proposal approval is the highest priority.">3 e-posta ilgini bekliyor. Teklif onayı en yüksek önceliğe sahip.</p></div><div class="mail"><span class="avatar">AK</span><div><b>Ayşe Kaya</b><p data-tr="Eylül kampanya teklifinin onayı" data-en="Approval for the September campaign proposal">Eylül kampanya teklifinin onayı</p></div><time>10:42</time><button class="draft" data-tr="Yanıt hazırla" data-en="Draft reply">Yanıt hazırla</button></div><div class="mail"><span class="avatar blue">JM</span><div><b>James Miller</b><p data-tr="Salı toplantısı için uygunluk" data-en="Availability for Tuesday's meeting">Salı toplantısı için uygunluk</p></div><time>09:15</time><button class="draft" data-tr="Yanıt hazırla" data-en="Draft reply">Yanıt hazırla</button></div></div></section>
+<section id="drafts" class="view page"><small data-tr="LUNA ÇALIŞMA ALANI" data-en="LUNA WORKSPACE">LUNA ÇALIŞMA ALANI</small><h2 data-tr="Taslaklar" data-en="Drafts">Taslaklar</h2><div class="draftbox"><label data-tr="Konu" data-en="Subject">Konu</label><input value="Eylül kampanya teklifi"><label data-tr="Luna'nın taslağı" data-en="Luna's draft">Luna'nın taslağı</label><textarea rows="9">Merhaba Ayşe,
 
-  <main>
-    <section class="hero">
-      <div class="eyebrow" data-tr="İki dilde çalışan kişisel yapay zekâ" data-en="Your bilingual personal AI">İki dilde çalışan kişisel yapay zekâ</div>
-      <h1 data-tr="Gelen kutunu sakinleştir. Gününü hızlandır." data-en="Calm your inbox. Move your day forward.">Gelen kutunu sakinleştir. Gününü hızlandır.</h1>
-      <p data-tr="Lunahan e-postalarını özetler, yanıt taslakları hazırlar ve hiçbir şeyi sen onaylamadan göndermez." data-en="Lunahan summarizes email, drafts replies, and never sends anything without your approval.">Lunahan e-postalarını özetler, yanıt taslakları hazırlar ve hiçbir şeyi sen onaylamadan göndermez.</p>
-      <button id="start" class="primary" data-tr="Erken erişime katıl" data-en="Join early access">Erken erişime katıl</button>
-    </section>
+Teklifi inceledim. Genel yaklaşım ve bütçe dağılımı uygun görünüyor. Takvimi netleştirmek için yarın kısa bir görüşme yapabiliriz.
 
-    <section class="demo" aria-label="Product preview">
-      <aside>
-        <div class="orb">L</div>
-        <span data-tr="Bugün" data-en="Today">Bugün</span>
-        <span data-tr="Gelen kutusu" data-en="Inbox">Gelen kutusu</span>
-        <span data-tr="Taslaklar" data-en="Drafts">Taslaklar</span>
-      </aside>
-      <article>
-        <div class="status"><span></span><b data-tr="Günaydın" data-en="Good morning">Günaydın</b></div>
-        <h2 data-tr="Bugün ilgilenmen gereken 3 konu var." data-en="You have 3 things that need attention today.">Bugün ilgilenmen gereken 3 konu var.</h2>
-        <div class="card"><b data-tr="Öncelikli e-posta" data-en="Priority email">Öncelikli e-posta</b><p data-tr="Teklif onayı bekleniyor. Senin tonunda bir yanıt taslağı hazırlandı." data-en="A proposal is waiting for approval. A reply has been drafted in your tone.">Teklif onayı bekleniyor. Senin tonunda bir yanıt taslağı hazırlandı.</p><button data-tr="Taslağı incele" data-en="Review draft">Taslağı incele</button></div>
-        <div class="card muted"><b data-tr="Toplantı özeti" data-en="Meeting recap">Toplantı özeti</b><p data-tr="Dünkü görüşmeden 4 görev çıkarıldı." data-en="4 action items were captured from yesterday’s call.">Dünkü görüşmeden 4 görev çıkarıldı.</p></div>
-      </article>
-    </section>
-  </main>
-
-  <footer><span>© 2026 Lunahan</span><span data-tr="Gizlilik odaklı · Onaysız işlem yok" data-en="Privacy-first · No action without approval">Gizlilik odaklı · Onaysız işlem yok</span></footer>
-  <script src="app.js"></script>
-</body>
-</html>
+Sevgiler,</textarea><div class="actions"><button class="secondary" data-tr="Yeniden yaz" data-en="Rewrite">Yeniden yaz</button><button class="primary" data-tr="Onayla ve gönder" data-en="Approve and send">Onayla ve gönder</button></div></div></section>
+<section id="settings" class="view page"><small data-tr="HESAP" data-en="ACCOUNT">HESAP</small><h2 data-tr="Ayarlar" data-en="Settings">Ayarlar</h2><div class="settings"><div><b data-tr="Arayüz dili" data-en="Interface language">Arayüz dili</b><p data-tr="Türkçe veya İngilizce kullan." data-en="Use Turkish or English.">Türkçe veya İngilizce kullan.</p><button id="settingsLanguage" class="secondary">Türkçe / English</button></div><div><b data-tr="E-posta bağlantısı" data-en="Email connection">E-posta bağlantısı</b><p data-tr="Gmail henüz bağlı değil." data-en="Gmail is not connected yet.">Gmail henüz bağlı değil.</p><button class="primary" data-tr="Gmail bağla" data-en="Connect Gmail">Gmail bağla</button></div><div><b data-tr="Güvenlik" data-en="Security">Güvenlik</b><p data-tr="Her gönderim için açık onay iste." data-en="Require explicit approval for every send.">Her gönderim için açık onay iste.</p><input type="checkbox" checked disabled></div></div></section>
+</main><footer>© 2026 Lunahan · Privacy-first AI</footer><script src="app.js"></script></body></html>
