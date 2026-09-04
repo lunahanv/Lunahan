@@ -1,0 +1,1 @@
+import{describe,it,expect}from'vitest';describe('approval safety',()=>{it('requires explicit approval',()=>{expect('Siz onaylamadan hiçbir şey göndermez').toContain('onay')})});

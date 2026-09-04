@@ -1,0 +1,1 @@
+export default[{files:['**/*.jsx'],languageOptions:{ecmaVersion:2022,parserOptions:{ecmaVersion:'latest',ecmaFeatures:{jsx:true},sourceType:'module'},globals:{document:'readonly',location:'readonly',localStorage:'readonly',addEventListener:'readonly',removeEventListener:'readonly'}},rules:{'no-undef':'error','no-unused-vars':['error',{varsIgnorePattern:'^[A-Z]'}]}}];
